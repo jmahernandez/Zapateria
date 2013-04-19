@@ -1,0 +1,223 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/pedidos_modelo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/pedidos_cantidad" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/pedidos_importe" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_modelo"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_cantidad"
+        android:textSize="12sp"
+        android:width="75dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+       	android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_importe"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_modelo"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_below="@+id/editText2"
+       	android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_cantidad"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_importe"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_modelo"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_cantidad"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_importe"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_modelo"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_cantidad"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_importe"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="5dp"
+        android:text="@string/pedidos_total"
+         android:textSize="22sp"
+        android:width="75dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_below="@+id/editText12"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/pedidos_total"
+        android:textSize="12sp"
+        android:width="75dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="5dp"
+        android:text="@string/pedidos_solicitar_btn"
+        android:onClick="Solicitar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="5dp"
+        android:text="@string/pedidos_menu_btn"
+        android:onClick="Menu" />
+    
+</RelativeLayout>

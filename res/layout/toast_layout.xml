@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+	android:background="#414141" >
+
+    <TextView
+        android:id="@+id/toast_modelo_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pedidos_modelo"
+        android:textColor="#f60"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toast_modelo_txt"
+        android:layout_alignBottom="@+id/toast_modelo_txt"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/toast_modelo_txt"
+        android:text="@string/pedidos_cantidad"
+        android:textColor="#f60"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/pedidos_importe"
+        android:textColor="#f60"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/toast_modelo_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toast_modelo_txt"
+        android:layout_below="@+id/toast_modelo_txt"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_modelo"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_cantidad_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toast_modelo_01"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_cantidad"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_importe_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_importe"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_modelo_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toast_modelo_01"
+        android:layout_below="@+id/toast_modelo_01"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_modelo"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_cantidad_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toast_modelo_02"
+        android:layout_alignLeft="@+id/toast_cantidad_01"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_cantidad"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_importe_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toast_cantidad_02"
+        android:layout_alignBottom="@+id/toast_cantidad_02"
+        android:layout_alignLeft="@+id/toast_importe_01"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_importe"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_modelo_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toast_modelo_02"
+        android:layout_below="@+id/toast_modelo_02"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_modelo"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_cantidad_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/toast_modelo_03"
+        android:layout_alignBottom="@+id/toast_modelo_03"
+        android:layout_alignLeft="@+id/toast_cantidad_02"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_cantidad"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_importe_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toast_cantidad_03"
+        android:layout_alignLeft="@+id/toast_importe_02"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_importe"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_modelo_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toast_modelo_03"
+        android:layout_below="@+id/toast_modelo_03"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_modelo"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_cantidad_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toast_modelo_04"
+        android:layout_alignLeft="@+id/toast_cantidad_03"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_cantidad"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_importe_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toast_cantidad_04"
+        android:layout_alignLeft="@+id/toast_importe_03"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_importe"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toast_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toast_modelo_04"
+        android:layout_below="@+id/toast_modelo_04"
+        android:layout_marginTop="15dp"
+        android:text="@string/pedidos_total"
+        android:textColor="#f00"
+        android:textSize="18sp" />
+    
+</RelativeLayout>

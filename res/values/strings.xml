@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zapateria</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="entrar_btn">Entrar</string>
+    <string name="salir_btn">Salir</string>
+    <string name="title_activity_menu_zapateria">Menu</string>
+    <string name="menu_header">Zapateria Salamandra</string>
+    <string name="menu_pedidos_btn">Pedidos</string>
+    <string name="menu_avisa_amigo_btn">Avisa a un amigo</string>
+    <string name="menu_catalogo_btn">Catalogo</string>
+    <string name="menu_contacto_btn">Contacto</string>
+    <string name="title_activity_pedidos">Pedidos</string>
+    <string name="pedidos_modelo">Modelo</string>
+    <string name="pedidos_cantidad">Cantidad</string>
+    <string name="pedidos_importe">Importe</string>
+    <string name="pedidos_total">Total</string>
+    <string name="pedidos_solicitar_btn">Solicitar</string>
+    <string name="pedidos_menu_btn">Menu</string>
+    <string name="title_activity_avisa">Avisa a un amigo</string>
+    <string name="title_activity_catalogo">Catalogo de zapatos</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="contacto_mapa">Mapa</string>
+    <string name="contacto_direccion">C. Naola m36 l24 Col. López Mateos</string>
+    <string name="contacto_email">jma_hernandez@hotmail.com</string>
+    <string name="contacto_facebook">José Miguel Amaro Hernández</string>
+    <string name="contacto_telefono">8341265342</string>
+
+</resources>

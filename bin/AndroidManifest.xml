@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zapateria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.zapateria.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.zapateria.MenuZapateria"
+            android:label="@string/title_activity_menu_zapateria"
+            android:parentActivityName="com.example.zapateria.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.zapateria.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.zapateria.Pedidos"
+            android:label="@string/title_activity_pedidos"
+            android:parentActivityName="com.example.zapateria.MenuZapateria" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.zapateria.MenuZapateria" />
+        </activity>
+        <activity
+            android:name="com.example.zapateria.Avisa"
+            android:label="@string/title_activity_avisa"
+            android:parentActivityName="com.example.zapateria.MenuZapateria" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.zapateria.MenuZapateria" />
+        </activity>
+        <activity
+            android:name="com.example.zapateria.Catalogo"
+            android:label="@string/title_activity_catalogo"
+            android:parentActivityName="com.example.zapateria.MenuZapateria" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.zapateria.MenuZapateria" />
+        </activity>
+        <activity
+            android:name="com.example.zapateria.Contacto"
+            android:label="@string/title_activity_contacto"
+            android:parentActivityName="com.example.zapateria.MenuZapateria" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.zapateria.MenuZapateria" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/contacto_mapa"
+        android:src="@drawable/mapa" />
+
+    <TextView
+        android:id="@+id/direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:text="@string/contacto_direccion"
+        android:textSize="18sp"
+        android:textColor="#ff4000" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/direccion"
+        android:layout_below="@+id/direccion"
+        android:layout_marginTop="5dp"
+        android:text="@string/contacto_email"
+        android:textSize="14sp"
+        android:textColor="#088a08" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="5dp"
+        android:text="@string/contacto_facebook"
+        android:textSize="14sp"
+        android:textColor="#0040ff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/facebook"
+        android:layout_below="@+id/facebook"
+        android:layout_marginTop="5dp"
+        android:text="@string/contacto_telefono"
+        android:textSize="14sp"
+        android:textColor="#414141" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:onClick="Salir"
+        android:text="@string/salir_btn" />
+
+</RelativeLayout>

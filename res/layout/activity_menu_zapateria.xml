@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/menu_header"
+        android:textColor="#f60"
+        android:textSize="16pt" />
+
+    <Button
+        android:id="@+id/pedidos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="5dp"
+        android:text="@string/menu_pedidos_btn"
+        android:onClick="Pedidos" />
+
+    <Button
+        android:id="@+id/avisa_amigo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pedidos"
+        android:layout_below="@+id/pedidos"
+        android:layout_marginBottom="5dp"
+        android:text="@string/menu_avisa_amigo_btn"
+        android:onClick="Avisa" />
+
+    <Button
+        android:id="@+id/catalogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/avisa_amigo"
+        android:layout_below="@+id/avisa_amigo"
+        android:layout_marginBottom="5dp"
+        android:text="@string/menu_catalogo_btn"
+        android:onClick="Catalogo" />
+
+    <Button
+        android:id="@+id/contacto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/catalogo"
+        android:layout_below="@+id/catalogo"
+        android:layout_marginBottom="5dp"
+        android:text="@string/menu_contacto_btn"
+        android:onClick="Contacto" />
+
+    <Button
+        android:id="@+id/salir_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacto"
+        android:layout_below="@+id/contacto"
+        android:layout_marginBottom="5dp"
+        android:onClick="Salir"
+        android:text="@string/salir_btn" />
+
+</RelativeLayout>
